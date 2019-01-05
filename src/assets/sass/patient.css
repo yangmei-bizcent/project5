@@ -1,0 +1,94 @@
+.el-label-width label{
+	width:145px!important;
+}
+.el-label-width .el-form-item__content{
+	margin-left: 145px!important;
+}
+.el-col-margin20 .el-col:first-child{
+	margin-right: 20px;
+}
+.el-width-25 .el-dialog{
+	width: 25%!important;
+	top:30%!important;
+}
+.sign-list .el-form-item__content{
+  	margin: 0!important;
+  }
+.posrel{
+	position: relative;
+}
+.worddisplay .el-form-item__label{
+	width:110px!important;
+}
+.worddisplay .el-form-item__content{
+	margin-left:110px!important;
+}
+.read-id{
+	position: absolute;
+	top: 65px;
+	right: 0;
+}
+.mzzzqr h2{
+	font-size: 18px;
+	text-align: center;
+	font-weight: 500;
+	margin-top: 60px;
+}
+.mzzzqr h4{
+	font-size: 14px;
+	font-weight: 500;
+}
+.mzzzqr .wrapper-layout{
+	margin: 30px 0;
+}
+.mzzzqr .el-tabs__header{
+	display: none;
+}
+.mzzzqr .grid-content h3{
+	margin: 0 20px;
+	padding: 0 4px;
+	line-height: 48px;
+	font-weight: 500;
+	border-bottom: 1px solid #E6E6E6;
+}
+.mzzzqr .grid-content .el-select{
+	display: block;
+	// margin: 10px 24px;
+}
+.mzzzqr .grid-content .el-table{
+	display: block;
+	width: initial!important;
+	margin: 0 24px;
+}
+.mzzzqr .grid-content .el-table tr>th .el-checkbox__input{
+	display: none;
+}
+.mzzzqr .el-table-column--selection .cell{
+	padding-left: 5px!important;
+	padding-right: 0!important;
+}
+.mzzzqr .is-leaf .cell{
+	padding-left: 3px!important;
+	padding-right: 3px!important;
+}
+.mzzzqr .clearfix{
+	display: block;
+	width: initial!important;
+	margin: 0 24px;
+	margin-top: 10px;
+}
+.mzzz-tip{
+	font-size: 12px;
+	font-weight: 500;
+}
+.height38{
+	height: 38px;
+}
+.clearfix .el-pagination{
+	float: left;
+	text-align: initial;
+	margin: 0;
+}
+.widthfull .el-form-item{
+	width: 100%;
+}

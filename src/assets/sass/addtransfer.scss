@@ -1,0 +1,456 @@
+.el-select-dropdown__empty {
+    display: none;
+}
+
+.el-table__fixed-header-wrapper thead div {
+    background-color: #fff;
+}
+
+.nowidth .searchForm .el-form-item {
+    width: auto!important;
+}
+
+.nowidth .searchForm .el-select {
+    display: block !important;
+}
+
+.nowidth .el-form-item {
+    width: auto!important;
+}
+
+.nowidth .el-select {
+    display: block !important;
+}
+
+.newcss .no_margin_left .el-form-item__content {
+    margin-left: 0!important;
+}
+
+.newcss .widthauto {
+    width: auto!important;
+}
+
+.newcss .marginright30 {
+    margin-right: 30px!important;
+}
+
+.newcss ul,
+li {
+    list-style-type: none;
+}
+
+.newcss .el-breadcrumb__item__inner {
+    color: #73879C!important;
+    pointer-events: none;
+}
+
+.newcss .main-wrap {
+    padding: 0;
+}
+
+.el-step__head {
+    width: 30px;
+    height: 30px;
+}
+
+.el-step__line.is-horizontal {
+    top: 14px;
+    left: 30px;
+}
+
+.el-step__icon {
+    line-height: 28px;
+}
+
+.newcss .el-breadcrumb__item {
+    height: 44px;
+    background: #F6F6F6;
+    width: 100%;
+    line-height: 44px;
+    margin-bottom: 20px;
+}
+
+.newcss .el-breadcrumb__item__inner {
+    margin-left: 24px;
+}
+
+.newcss .el-form .el-form-item {
+    width: 46%;
+    margin-right: 10px;
+}
+
+.newcss .temp-span:before {
+    content: "*";
+    color: #ff4949;
+    margin-right: 4px;
+}
+
+.newcss .flex-align {
+    display: block;
+}
+
+
+/*叹号的样式*/
+
+.newcss .ts-notice .el-icon-ts-mark2 {
+    font-size: 20px;
+    color: #f6a810
+}
+
+.newcss .logoewm {
+    width: 140px;
+    height: 140px;
+}
+
+.newcss .logoewm_span {
+    display: block;
+    margin: -5px 0 0;
+    text-align: center;
+}
+
+.newcss .el-upload--picture-card {
+    width: 122px;
+    height: 122px;
+    margin-top: 10px;
+}
+
+.newcss .el-icon-plus {
+    position: relative;
+    top: -8px;
+}
+
+.newcss .el-upload-list--picture-card .el-upload-list__item {
+    width: 122px;
+    height: 122px;
+    margin-top: 10px;
+}
+
+.newcss .page_footer {
+    border-top: 1px solid #ccc;
+    padding-top: 16px;
+}
+
+// 信息核实
+.newcss .tableellipsis table {
+    table-layout: fixed;
+}
+
+.newcss .tableellipsis .cell {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.nopadding thead th:nth-of-type(3) .cell {
+    padding: 0;
+    width: auto;
+    margin-right: 9px;
+    padding-right: 5px;
+    margin-left: 20px;
+}
+
+.tablecheck thead th:nth-of-type(3) .cell:before {
+    content: "建立上转关系";
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    background: #fff;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    text-indent: -999em;
+    border-radius: 5px;
+}
+
+.tablecheck thead th:nth-of-type(3).aa .cell:before {
+    background-color: #00bc9c;
+    border-color: #01a78c;
+}
+
+.tablecheck thead th:nth-of-type(3).aa .cell:after {
+    box-sizing: content-box;
+    content: "建立下转关系";
+    border: 2px solid #fff;
+    border-left: 0;
+    border-top: 0;
+    height: 8px;
+    left: 6px;
+    position: absolute;
+    top: 8px;
+    transform: rotate(45deg) scaleY(0);
+    width: 4px;
+    transition: transform .15s cubic-bezier(.71, -.46, .88, .6) .05s;
+    transform-origin: center;
+    transform: rotate(45deg) scaleY(1);
+    overflow: hidden;
+    text-indent: -999em;
+}
+
+.nopadding thead th:nth-of-type(4) .cell {
+    padding: 0;
+    width: auto;
+    margin-right: 9px;
+    padding-right: 5px;
+    margin-left: 20px;
+}
+
+.tablecheck thead th:nth-of-type(4) .cell:before {
+    content: "建立上转关系";
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    background: #fff;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    text-indent: -999em;
+    border-radius: 5px;
+}
+
+.tablecheck thead th:nth-of-type(4).aa .cell:before {
+    background-color: #00bc9c;
+    border-color: #01a78c;
+}
+
+.tablecheck thead th:nth-of-type(4).aa .cell:after {
+    box-sizing: content-box;
+    content: "建立下转关系";
+    border: 2px solid #fff;
+    border-left: 0;
+    border-top: 0;
+    height: 8px;
+    left: 6px;
+    position: absolute;
+    top: 8px;
+    transform: rotate(45deg) scaleY(0);
+    width: 4px;
+    transition: transform .15s cubic-bezier(.71, -.46, .88, .6) .05s;
+    transform-origin: center;
+    transform: rotate(45deg) scaleY(1);
+    overflow: hidden;
+    text-indent: -999em;
+}
+
+//详情弹框
+.el-dialog__title {
+    display: block;
+    text-align: center;
+}
+
+//标签
+.el-tag+.el-tag {
+    margin-left: 10px;
+}
+
+.button-new-tag {
+    margin-left: 10px;
+    height: 32px;
+    line-height: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.input-new-tag {
+    width: 90px;
+    margin-left: 10px;
+    vertical-align: bottom;
+}
+
+//新增 图片
+.img_con {
+    margin: -20px 0 0 43px;
+    border-radius: 5px;
+    width: 80%;
+    .img_li {
+        float: left;
+        width: 150px;
+        height: 150px;
+        margin-right: 10px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.check_btn,
+.cancel_btn,
+.angin_btn {
+    font-size: 12px;
+    color: #539CDB;
+    cursor: pointer;
+}
+
+.main-wrap {
+    padding: 0;
+}
+
+// .el-date-editor--daterange.el-input {
+//     width: 200px;
+// }
+.wrapper-datepicker {
+    .el-form-item {
+        width: auto;
+    }
+    .demonstration {
+        display: inline-block;
+        width: 65px;
+        margin-right: 20px;
+        text-align: right;
+    }
+    .el-table th {
+        background-color: #FFFFFF !important;
+    }
+    .el-table__footer-wrapper thead div,
+    .el-table__header-wrapper thead div {
+        background-color: #FFFFFF !important;
+    }
+    .el-table tr {
+        background-color: #F7F7F7 !important;
+    }
+    .el-table--striped .el-table__body tr.el-table__row--striped td {
+        background: #FFFFFF none repeat scroll 0 0 padding-box;
+    }
+    .tag_text1 b,
+    .tag_text2 b,
+    .tag_text3 b {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 5px;
+    }
+    .tag_text1 b {
+        background: #539CDB;
+    }
+    .tag_text2 b {
+        background: #58B957;
+    }
+    .tag_text3 b {
+        background: #455667;
+    } // 分页
+    .pag-ul {
+        padding: 0;
+        list-style: none;
+        overflow: hidden;
+        .pag-li {
+            text-align: center;
+            float: left;
+            width: 50%;
+        }
+    }
+    .demonstration {
+        display: block;
+        color: #8492a6;
+        font-size: 14px;
+        line-height: 44px;
+        margin-bottom: 10px;
+    }
+    .block {
+        padding-left: 185px;
+        margin-bottom: 60px;
+    }
+    .el-pagination {
+        text-align: right;
+        margin-top: 50px;
+    }
+}
+
+.newcss .el-dialog__headerbtn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.newcss .mymzDial {
+    .el-dialog--small {
+        width: 60%;
+    }
+    .el-form-item__label {
+        font-size: 14px
+    }
+    .el-form-item {
+        margin-bottom: 0px;
+    }
+}
+
+.newcss .ts-content {
+    .el-table__body-wrapper {
+        min-height: 251px;
+    }
+    .el-dialog .el-table__body-wrapper {
+        min-height: 0;
+    }
+}
+
+.ewm_title {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    .pagetitle {
+        font-size: 20px;
+        font-weight: bold;
+        width: 70%;
+        display: inline-block;
+    }
+}
+
+.el-date-editor--daterange.el-input {
+    width: auto;
+}
+
+//签约统计
+.textalign .el-form-item__label {
+    width: 45px !important;
+}
+
+.textalign .el-form-item__content {
+    margin-left: 45px !important;
+}
+
+//社区转诊申请 时间控制width auto
+.datainputstyle {
+    .el-date-editor {
+        width: 100% !important;
+    }
+}
+
+.zzupdata_con .el-upload-list--text {
+    margin-left: 0!important;
+    margin-top: 0!important;
+}
+
+.update_con .el-upload-list--text {
+    margin-left: 115px;
+    margin-top: 30px;
+}
+
+.ewm_k {
+    .el-dialog--small {
+        width: auto !important;
+    }
+}
+
+.logoewm {
+    margin: 0 auto;
+}
+
+.ewmfont {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+//入院申请确认页面
+.nobottom .el-form-item {
+    margin-bottom: 0;
+}
+
+.pageBox {
+    background: white;
+    height: 80px;
+    padding-top: 20px;
+}

@@ -1,0 +1,74 @@
+
+//转诊记录
+.ReferralRecordIndex{
+    .el-table__body-wrapper{
+        overflow-y: hidden;
+    }
+    .el-table th{
+        font-family: MicrosoftYaHei-Bold;
+        font-size: 14px;
+        color: #425B77;
+    }
+    .el-table .cell, .el-table th>div{
+        padding: 0 0 0 10px;
+        font-size: 14px;
+    }
+    .state_ok{
+        display: inline-block;
+        width:6px;
+        height: 6px;
+        border-radius: 50%;
+        background:#58B957 ;
+    }
+    .state_no{
+        display: inline-block;
+        width:6px;
+        height: 6px;
+        border-radius: 50%;
+        background:#ccc ;
+    }
+    .el-icon-ts-serch,.el-icon-ts-reject{
+        color: #539CDB;
+       
+    }
+    .el-breadcrumb__item {
+        height: 44px;
+        background: #f6f6f6;
+        width: 100%;
+        line-height: 44px;
+        margin-bottom: 20px;
+        .el-breadcrumb__item__inner{
+            margin-left: 24px;
+        }
+    }
+    
+}
+.el-message-box__header{
+    border-bottom: none;
+}
+
+//单发短信及群发短信组件
+.messageMod{
+   
+    .formClass1 .el-form-item__content {
+            width: calc(100% - 120px);
+            margin: 0;
+            float: left;
+        }
+    .formClass1 label {
+        font-size: 14px;
+        color: #425B77;
+        width:100px;
+        text-align: right;
+        float: left;
+    }
+    .el-form-item__content {
+        line-height: 20px;
+    }
+    .width100{
+        .el-form-item__content{
+            width: 100%;
+        }
+    }
+    
+}

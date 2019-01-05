@@ -1,0 +1,111 @@
+.el-dialog__title{
+  text-align: left;
+  display: inline-block;
+}
+.el-width-50 .el-dialog{
+	width: 40% !important;
+}
+.el-width-50 .el-dialog__body{
+	border-bottom:1px solid #ccc;
+	border-top: 1px solid #ccc;
+	margin-top: 20px;
+}
+.el-width-50 .el-select__tags{
+	height: 30px !important;
+	overflow: hidden;
+	float: left;
+	white-space: nowrap;
+}
+.marginright20{
+	margin-right: 20px;
+}
+.marginleft30{
+	margin-left: 30px;
+}
+.charts_k{
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+.charts_title{
+	font-size:18px;
+	color:#73879c;
+	margin: 14px 0 0 21px;
+	padding-bottom: 	9px;
+	border-bottom:2px solid #e6e6e6;
+	display: block;
+}
+.ve-histogram{
+	margin-left: 	10px;
+}
+//批量导入样式开始
+.batch_select .el-select__tags{
+	height: 30px !important;
+	overflow: hidden;
+	float: left;
+	white-space: nowrap;
+}
+.batch_select .el-select{
+	display: inline-block!important;
+}
+.batch_top{
+	background: rgba(42,63,84,0.04);
+	margin-bottom: 20px;
+}
+.import_k{
+	border-bottom: 1px solid #e6e6e6;
+	padding-bottom: 20px;
+	padding-top: 24px;
+	margin: 0 25px 20px;
+}
+.import_title{
+	font-size:14px;
+	color:#425b77;
+	display: inline-block;
+	width: 90%;
+}
+
+.ts-notice{
+	display: inline-block;
+	margin-left: 10px;
+}
+.add_batch{
+	display: inline-block;
+	margin-left: 20px;
+	font-size:14px;
+	color:#539cdb;
+	cursor: pointer;
+}
+//指导入模式结束
+//发送历史开始
+.messcon .el-dialog{
+	width: 60% !important;
+}
+.messcon .el-dialog__header{
+	border-bottom:1px solid #ccc;
+	border-top: 1px solid #ccc;
+	padding-bottom: 20px;
+}
+.messcon .el-dialog__body{
+	padding-top: 20px;
+}
+.messcon.margintop .el-form-item__content{
+	margin-top: 10px;
+}
+//发送历史结束
+//统计中心开始
+//初始签约数据
+.initialtk .el-form-item__label{
+	width: 175px !important;
+}
+.initialtk .el-form-item__content{
+	margin-left: 175px !important;
+}
+//续约签约统计
+//统计中心结束
+
+.datawidthauto .el-date-editor.el-input{
+	width: auto;
+}
+.el-dialog{
+	width: 70% !important;
+}

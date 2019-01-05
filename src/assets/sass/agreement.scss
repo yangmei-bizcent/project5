@@ -1,0 +1,60 @@
+.agreement>.agreement_title{
+    font-size: 16px;
+    color: #425B77;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 45px
+}
+.agreement .agreement_top .el-form-item__label{
+    width: 160px;
+    font-size: 14px;
+    color: #425B77;
+    letter-spacing: 0.2px;
+    text-align: right;
+}
+.agreement  .agreement_bottom .el-form-item__label{
+    width: 75px;
+    font-size: 14px;
+    color: #425B77;
+    letter-spacing: 0.2px;
+    text-align: left;
+    padding: 11px 0px 11px 0px; 
+}
+.agreement .agreement_top .el-form-item__content{
+    padding: 11px 0px 11px 8px; 
+    line-height: 1;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0.2px;
+    display: inline-block    
+}
+.agreement .agreement_bottom .el-form-item__content{
+    padding: 11px 0px 11px 0px; 
+    line-height: 1;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0.2px;
+    display: inline-block    
+}
+.underline{
+    text-decoration: underline
+}
+.protocol{
+    font-size: 14px;
+    color: #425B77;
+    letter-spacing: 0.2px;
+    padding: 11px 0px 11px 0;
+}
+.protocol_content{
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0.2px;
+    line-height: 21px;
+    padding: 11px 0px 11px 0;
+}
+.agreement_save{position: absolute;right:24px;top: 16px}
+@media print{
+    .noprint{
+       display: none  
+     }
+}

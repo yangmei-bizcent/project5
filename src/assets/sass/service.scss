@@ -1,0 +1,97 @@
+.main-wrap{
+	padding: 0;
+	position: relative;
+	.el-breadcrumb__item{
+		float: none;
+	}
+	ul,	li {
+	    list-style-type: none;	    
+	}
+	.service_li.service_green{
+		background: url('../../assets/img/green_bg.png') top center no-repeat;
+		width: 300px;
+		height: 437px;
+		float: left;
+		margin-right: 5px;
+		background-size: 100%;
+		position: relative;
+		.el-button--primary{
+			background: #00BC9C;
+		}
+	}
+	.service_li{
+		background: url('../../assets/img/blue_bg.png') top center no-repeat;
+		width: 300px;
+		height: 437px;
+		float: left;
+		margin-right: 5px;
+		background-size: 100%;
+		position: relative;
+		.service_title,.service_people,.service_pro,.service_text,.service_price{
+	    	display: block;
+	    	font-family: 'MicrosoftYaHei';
+	    }
+	    .service_title{
+	    	font-weight: bold;
+	    	margin: 30px 0 0 30px;
+	    	color: #fff;
+	    	font-size: 26px;
+	    }
+	    .service_people{
+	    	position: absolute;
+	    	right: 32px;
+	    	top: 30px;
+	    	color: #fff;
+	    	font-size: 16px;
+	    	font-weight: bold;
+	    }
+	    .service_pro{
+	    	font-size: 14px;
+	    	color: #fff;
+	    	width: 235px;
+	    	line-height: 18px;
+	    	margin-left: 30px;
+	    	margin-top: 29px;
+	    }
+	    .service_k{
+	    	width: 255px;
+	    	margin: 29px auto 0;
+	    	text-align: center;
+	    	.service_text{
+	    		font-size: 16px;
+	    		width: 245px;
+	    		height: 20px;
+	    		overflow: hidden;
+	    		text-overflow:ellipsis;
+	    		white-space: nowrap;
+	    		text-align: center;
+	    		margin: 0 auto 14px;
+	    	}
+	    }
+    	.service_price{
+    		color: #E4615A;
+    		text-align: center;
+    	}
+    	.el-button--primary{
+    		position: absolute;
+    		left: 65px;
+    		bottom: 65px;
+    		width: 172px;
+    		height: 34px;
+    		background: #539CDB;
+    	}
+	}
+	.addservice_btn{
+		width: 102px;
+		height: 34px;
+		background: #00BC9C;
+		color: #fff;
+		border-radius: 5px;
+		text-align: center;
+		line-height: 34px;
+		position: absolute;
+		right: 20px;
+		top: 0px;
+		cursor: pointer;
+	}
+}

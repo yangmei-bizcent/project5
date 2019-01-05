@@ -1,0 +1,307 @@
+.treatment_state {
+    background: #FFFFFF;
+    border-top: 1px solid #E6E6E6;
+    border-left: #00BC9C 5px solid;
+    border-right: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 10px 0px;
+}
+
+.treatment_state .cus_label {
+    padding: 11px 12px 11px 0;
+    font-size: 14px;
+    color: #425B77;
+    letter-spacing: 0;
+    text-align: right;
+    width: 110px;
+    float: left;
+}
+
+.treatment_state .cus_content {
+    width: calc(100% - 110px);
+    margin: 0;
+    float: left;
+    padding: 11px 0px 11px 0;
+    font-size: 14px;
+    color: #333333;
+}
+
+.treatment_content {
+    background: #FFFFFF;
+    padding: 0px 0px 10px;
+}
+
+.treatment_content .border {
+    margin-top: 6px!important;
+    cursor: pointer;
+    float: left;
+    margin-right: 10px!important;
+    margin-right: 10px;
+    width: auto!important;
+    padding: 5px !important;
+    padding-right: 10px!important;
+    display: inline-block!important;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 12px;
+}
+
+.treatment_content .x_title {
+    font-size: 18px;
+    color: #425B77;
+    line-height: 56px;
+    border-bottom: #E6E6E6 2px solid;
+    margin-bottom: 10px
+}
+
+.treatment_content .custom_width {
+    display: table;
+    float: left;
+    width: 33.33%
+}
+
+.flex3 {
+    .cus_content {
+        // width: 400px!important;
+    }
+}
+
+.treatment_content .custom_width2 {
+    display: table;
+    float: left;
+    width: 100%
+}
+
+.treatment_content .cus_label {
+    padding: 11px 12px 11px 0;
+    font-size: 14px;
+    color: #425B77;
+    float: left;
+    letter-spacing: 0;
+    text-align: right;
+    width: 110px!important;
+    display: table-cell;
+}
+
+.treatment_content .cus_content {
+    float: left;
+    margin: 0;
+    display: table-cell;
+    padding: 11px 0px 11px 0;
+    font-size: 14px;
+    color: #333333;
+    width: 280px;
+}
+
+.course_disease {
+    overflow: hidden;
+}
+
+.course_disease .course_disease_left {
+    border: 1px solid #E6E6E6;
+    height: 650px;
+    overflow-y: auto;
+    width: 330px;
+    float: left
+}
+
+.course_disease .course_disease_left ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.course_disease .course_disease_left ul li {
+    font-size: 14px;
+    color: #425B77;
+    list-style-type: none;
+    font-weight: bold;
+    padding: 20px;
+    background: #FAFAFA;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.course_disease .course_disease_left ul li>div {
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 13px;
+    color: #333333;
+    margin-top: 15px
+}
+
+.course_disease .course_disease_left ul li>div span {
+    font-size: 12px;
+    color: #999999;
+    letter-spacing: 0;
+    float: right
+}
+
+.course_disease .course_disease_left ul li:hover {
+    background: #FFFFFF
+}
+
+.course_disease .course_disease_right {
+    width: calc(100% - 350px);
+    float: right;
+    border: 1px solid #E7E7E7;
+    min-height: 650px;
+}
+
+.course_disease .course_disease_right .x_title {
+    line-height: 50px;
+    background: #FAFAFA;
+    border-bottom: 1px solid #E7E7E7;
+    padding: 0 20px;
+    font-weight: bold
+}
+
+.course_disease .course_disease_right .x_title span {
+    float: right;
+    font-weight: normal;
+    font-size: 13px;
+    color: #425B77;
+}
+
+.course_disease .course_disease_right .cus_content {
+    padding: 20px;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0.2px;
+    text-align: justify;
+    line-height: 21px;
+}
+
+.course_disease_right {
+    .title {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #666666;
+        font-weight: bold;
+        margin-left: 24px;
+        margin-bottom: 10px;
+    }
+    .content {
+        font-size: 14px;
+        color: #333333;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .docname {
+        text-align: right;
+        font-size: 14px;
+        color: #666666;
+        margin-right: 24px;
+        margin-top: 30px;
+        margin-bottom: 88px;
+        .docmargin {
+            margin-right: 40px;
+        }
+    }
+}
+
+.leave_hospital {
+    background: #FFFFFF;
+    padding: 0px 0px 10px;
+}
+
+.leave_hospital .custom_width {
+    display: table;
+    float: left;
+    width: 50%
+}
+
+.leave_hospital .custom_width2 {
+    display: table;
+    float: left;
+    width: 100%
+}
+
+.leave_hospital .cus_label {
+    padding: 11px 12px 11px 0;
+    font-size: 14px;
+    color: #425B77;
+    letter-spacing: 0;
+    text-align: right;
+    width: 110px;
+    display: table-cell;
+}
+
+.leave_hospital .cus_content {
+    width: calc(100% - 110px);
+    margin: 0;
+    display: table-cell;
+    padding: 11px 0px 11px 0;
+    font-size: 14px;
+    color: #333333;
+}
+
+.el-tabs__content {
+    height: 660px;
+    position: static!important;
+    .el-tab-pane {
+        height: 650px;
+        overflow-y: auto;
+    }
+}
+
+.detailBox {
+    .priGoBack {
+        position: fixed;
+        bottom: 20px;
+    }
+}
+
+.red {
+    color: red;
+}
+
+.dateinput {
+    width: 200px!important;
+}
+
+.agreeDia {
+    .el-dialog--small {
+        width: 400px!important;
+    }
+}
+
+.refuseText {
+    width: 100%!important;
+    height: 100px!important;
+    margin-top: 10px;
+}
+
+.printDetail {
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    width: 800px;
+    .el-row {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .title {
+        font-weight: bold;
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .formWidth {
+        width: calc(100% - 40px);
+        padding-bottom: 10px;
+        border-bottom: 1px solid #425B77;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+    .el-form-item {
+        margin-bottom: 0;
+    }
+}
+
+.imgshow {
+    img {
+        width: 100%;
+    }
+}

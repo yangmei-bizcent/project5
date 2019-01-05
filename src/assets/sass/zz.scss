@@ -1,0 +1,200 @@
+//签约居民列表
+.add_btn{
+	background: #539CDB;
+	border: 1px solid #3987CC;
+	border-radius: 4px;
+	width: 108px;
+	height: 34px;
+	line-height: 35px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	cursor:pointer;
+}
+.btn_ul{
+	width: 108px;
+	padding-left: 0;
+	border: 1px solid #eee;
+	position: absolute;
+	z-index: 999;
+	background: #fff;
+	margin-top: 5px;
+}
+.btn_li{
+	width:106px;
+	font-size: 14px;
+	cursor: pointer;
+	padding-left: 14px;
+	height: 34px;
+	line-height: 34px;	
+}
+.btn_li:hover{
+	background: #f7f7f7;
+}
+//住院转诊申请
+.cardbtn .el-input-group__append{
+	background: #539CDB!important;
+}
+.cardbtn span{
+	color: #fff;
+}
+.cardk .el-form-item__content{
+	position: relative;
+}
+.helpcon{
+	position: absolute;
+	top: 5px;
+	right: -25px;
+}
+.datak .el-input{
+	width: 100%!important;
+}
+.formwidth1 .el-form-item__label,.formwidth2 .el-form-item__label,.formwidth3 .el-form-item__label,.formwidth4 .el-form-item__label,{
+	width: auto !important;
+}
+.formwidth1 .el-form-item__content{
+	margin-left: 35px !important;
+}
+.formwidth2 .el-form-item__content{
+	margin-left: 55px !important;
+}
+.formwidth3 .el-form-item__content{
+	margin-left: 60px !important;
+}
+.hospinformation{
+	margin-bottom: 20px;
+	margin-left: 37px;
+}
+.hospinformation .hospinformation_title{
+	color: #425B77;
+	font-size: 18px;
+	font-weight: bold;
+}
+.hospinformation .more_zk{
+	color: #539CDB;
+	cursor: pointer;
+	margin-left: 20px;
+	font-size: 14px;
+}
+// .update_con .el-upload-list__item{
+// 	width: 130px;
+// 	float: left;
+// }
+// .update_con .el-upload-list__item:first-child{
+// 	margin-top: 5px;
+// }
+// .update_con .el-upload,.update_con .smbtn{
+// 	position: absolute;
+// 	right: 10%;
+// }
+// .update_con .smbtn{
+// 	top: 0;
+// 	right: 5%;
+// 	color: #539CDB;
+// 	cursor:pointer;
+// }
+.idCardNoticeDlg {
+	padding: 10px 20px;
+	.dlg-tit {
+		font-size: 28px;
+		color: #539cdb;
+		font-weight: bold;
+		border-bottom: 4px solid #539cdb;
+		padding-bottom: 1.5%;
+	}
+	.dlg-con {
+		font-size: 15px;
+		color: #333;
+		margin-top: 3.1%;
+		p.contact {
+			font-size: 16px;
+			font-weight: bold;
+			color: #539cdb;
+			margin-top: 14px;
+		}
+	}
+}
+// 住院转诊申请
+.form_refrrapply {
+	.el-form-item__content {
+		position: relative;
+		.btn-scanupload {
+			position: absolute;
+			top: 4px;
+			left: 80px;
+		}
+	}
+	.el-upload {
+		.button {
+
+		}
+	}
+	.el-upload__tip {
+		.helpcon {
+			position: relative;
+			top: 3px;
+			display: inline;
+			img {
+				width: 14px;
+				height: 14px;
+			}
+		}
+	}
+	.img_k {
+		margin-bottom: 40px;
+	}
+	.ewm_k{
+		.el-dialog--small{
+			width: auto !important;
+		}
+	}
+	.logoewm{
+		margin:0 auto;
+	}
+	.ewmfont{
+		font-size: 18px;
+		color: #333;
+		font-weight: bold;
+	}
+}
+// 填写转诊信息
+.write_hosptlrefrrinfo {
+	.el-checkbox-group + .el-input {
+		width: initial;
+		min-width: 300px;
+		margin-left: 20px;
+	}
+	.otherIsoReq {
+		width: 282px;
+	}
+	.width-initial {
+		width: initial;
+	}
+	.otherIsolationReq {
+		.el-form-item__content {
+			margin-left: 0 !important;
+		}
+	}
+}
+// 确认申请
+.confirm_hosptlrefrr {
+	.el-form-item__content {
+		font-size: 14px;
+		color: #333;
+	}
+	.file-item {
+		font-size: 12px;
+		color: #666;
+		height: 25px;
+		line-height: 25px;
+		display: inline-block;
+		padding: 0 10px;
+		cursor: pointer;
+		border: 1px solid #ccc;
+		border-radius: 12px;
+		box-sizing: border-box;
+		&+.file-item {
+			margin-left: 1.3%;
+		}
+	}
+}

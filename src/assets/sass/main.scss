@@ -1,0 +1,63 @@
+body {
+    font-size: 16px;
+    color: $color-text;
+}
+
+p {
+    margin: 0;
+}
+
+.el-form-item__label {
+    // font-size: 16px;
+    color: $color-text;
+}
+
+.main-wrap {
+    padding: 20px 20px;
+}
+
+.clearfix {
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+.el-table__header,
+.el-table__body {
+    width: 100%!important;
+    font-size: 12px;
+}
+
+.el-table {
+    .el-checkbox {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+}
+
+.el-pagination__sizes {
+    margin-left: 20px;
+}
+
+.width20 {
+    width: 20%!important;
+}
+
+.width25 {
+    width: 25%!important;
+}
+
+.widthauto {
+    width: auto!important;
+}
+
+.wrapper-datepicker .block {
+    padding-left: 0!important;
+}
+
+// .el-form-item__content{
+//     font-size: inherit;
+//     line-height: inherit;
+// }
